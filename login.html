@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="public\css\login.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Đăng nhập</a></li>
-                    <li><a href="#">Đăng ký</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="public\css\login.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="row">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li>|</li>
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li>|</li>
+                        <li><a href="#">Đăng ký</a></li>
+                    </ul>
+                </div>
             </div>
+        </header>
+        <div class="main">
+            <div class="login">
+            <form action>
+                <h1>Màn hình đăng nhập</h1>
+                Username: <input type="text" name="username" id><br>
+                Password: <input type="text" name="password" id><br>
+                <input type="checkbox" name="ghinho" id>Ghi nhớ đăng
+                nhập<br><br>
+                <a href>Quên mật khẩu</a>
+                <input type="submit" value="Đăng nhập">
+            </form>
         </div>
-    </header>
-    <div class="container">
-
-    </div>
-</body>
+        </div>
+        <footer>Bùi Anh Tú @ 3/2024</footer>
+    </body>
 </html>
