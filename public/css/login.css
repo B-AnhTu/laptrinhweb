@@ -5,6 +5,10 @@ header, footer{
     border: 2px solid black;
     padding: 5px 0;
 }
+form{
+    margin: 0;
+    right: 0;
+}
 ul{
     list-style: none;
     top: 0;
@@ -16,7 +20,7 @@ li{
     padding: 3px;
 }
 input{
-    margin: 5px 10px;
+    margin: 5px 30px;
 }
 
 .main{
@@ -36,6 +40,9 @@ input[type=submit]{
     color: white;
     padding: 5px;
     border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: blueviolet;
 }
 a{
     text-decoration: none;
